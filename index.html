@@ -158,51 +158,47 @@
         <div class="gallery" style="display: none">
           <img
             data-gallery-tag="Concert"
-            class="gallery-item"
+            class="lazyload gallery-item"
             src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash__gallery-desktop_fullsize.webp"
-            srcset="
-              ./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-mobile.webp  649w,
-              ./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp        1920w
-            "
           />
           <img
             data-gallery-tag="Entreprises"
-            class="gallery-item"
+            class="lazyload gallery-item"
             src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash__gallery-desktop_fullsize.webp"
           />
           <img
             data-gallery-tag="Entreprises"
-            class="gallery-item"
+            class="lazyload gallery-item"
             src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash__gallery-desktop_fullsize.webp"
           />
           <img
             data-gallery-tag="Mariages"
-            class="gallery-item"
+            class="lazyload gallery-item"
             src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash__gallery-desktop_fullsize.webp"
           />
           <img
             data-gallery-tag="Portrait"
-            class="gallery-item"
+            class="lazyload gallery-item"
             src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash__gallery-desktop_fullsize.webp"
           />
           <img
             data-gallery-tag="Mariages"
-            class="gallery-item"
+            class="lazyload gallery-item"
             src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash__gallery-desktop_fullsize.webp"
           />
           <img
             data-gallery-tag="Portrait"
-            class="gallery-item"
+            class="lazyload gallery-item"
             src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash__gallery-desktop_fullsize.webp"
           />
           <img
             data-gallery-tag="Concert"
-            class="gallery-item"
+            class="lazyload gallery-item"
             src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash__gallery-desktop_fullsize.webp"
           />
           <img
             data-gallery-tag="Entreprises"
-            class="gallery-item"
+            class="lazyload gallery-item"
             src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash__gallery-desktop_fullsize.webp"
           />
         </div>
@@ -303,12 +299,13 @@
         <div class="picture right">
           <img
             src="./assets/images/camera-desktop.webp"
-            srcset="
+            data-srcset="
               ./assets/images/camera-mobile.webp  412w,
               ./assets/images/camera-desktop.webp 419w
             "
             width="419"
             height="418"
+            class="lazyload"
           />
         </div>
       </div>
@@ -321,5 +318,6 @@
     ></script>
     <script src="./assets/maugallery.js" defer></script>
     <script src="./assets/scripts.js" defer></script>
+    <script src="./assets/lazysizes.min.js" async=""></script>
   </body>
 </html>
