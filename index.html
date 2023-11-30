@@ -12,17 +12,24 @@
     />
     <title>Nina Carducci photographe</title>
     <!-- Schema.org meta for Google+ -->
-    <div itemscope itemtype="http://schema.org/LocalBusiness">
-      <meta itemprop="name" content="Nina Carducci photographe" />
-      <meta
-        itemprop="description"
-        content="Saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos."
-      />
-      <meta
-        itemprop="image"
-        content="https://spikoftw.github.io/Projet9OC/assets/images/nina-desktop.webp"
-      />
-    </div>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Bordeaux",
+          "addressRegion": "Nouvelle-Aquitaine",
+          "postalCode": "33200",
+          "streetAddress": "68 avenue Alsace-Lorraine"
+        },
+        "name": "Nina Carducci photographe",
+        "openingHours": ["Mo-Fr 10:00-19:00"],
+        "telephone": "05 56 67 78 89"
+        "description": "Saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.",
+        "image": "https://spikoftw.github.io/Projet9OC/assets/images/nina-desktop.webp"
+      }
+    </script>
 
     <!-- Twitter summary card with large image must be at least 280x150px -->
     <meta name="twitter:card" content="summary_large_image" />
@@ -179,7 +186,7 @@
             ./assets/images/nina-desktop.webp 560w,
             ./assets/images/nina-mobile.webp  468w
           "
-          sizes="100vw"
+          sizes="(max-width: 559px) 468w, 560w"
           width="560"
           height="558"
           alt="Photo portrait de Nina Carducci"
@@ -380,21 +387,5 @@
     ></script>
     <script src="./assets/maugallery.js" defer></script>
     <script src="./assets/scripts.js" defer></script>
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Bordeaux",
-          "addressRegion": "Nouvelle-Aquitaine",
-          "postalCode": "33200",
-          "streetAddress": "68 avenue Alsace-Lorraine"
-        },
-        "name": "Nina Carducci",
-        "openingHours": ["Mo-Fr 10:00-19:00"],
-        "telephone": "05 56 67 78 89"
-      }
-    </script>
   </body>
 </html>
